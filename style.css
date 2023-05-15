@@ -1,0 +1,322 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+
+
+body {
+    background-image: url('src/Web\ page/A\ \(2\).jpg');
+    background-size: cover;
+    background: #000000;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+
+
+    clear: both;
+    padding-top: 10px;
+    line-height: 1.65em;
+    background-repeat: no-repeat;
+	background-position: top right;
+
+
+
+
+    overflow: hidden;
+    backdrop-filter: blur(3px);
+
+  
+  }
+
+
+
+
+
+.img1 {
+  position: absolute;
+  filter: brightness(170%);
+  width: 30%;
+  height: auto;
+  margin-left: 5px;
+}
+.img2 {
+  position: absolute;
+  filter: brightness(170%);
+  width: 30%;
+  height: auto;
+  margin-left: 950px;
+}
+
+.rightladder {
+  position: absolute;
+  filter: brightness(170%);
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 1.75%;
+  height: auto;
+  margin-top: 5px;
+  margin-left: 97.5%;
+
+}
+.topladder {
+  position: absolute;
+  filter: brightness(170%);
+  width: 30.75%;
+  height: auto;
+  margin-top: 3px;
+  margin-left: 68.5%;
+}
+.graphlogo {
+  position: absolute;
+  filter: brightness(170%);
+  width: 80px;
+  height: auto;
+  margin-left: 17px;
+  margin-top: 5px;
+
+}
+.Bname {
+  position: absolute;
+  width: 130px;
+  height: 30px;
+  margin-left: 1188px;
+  margin-top: 71px;
+
+}
+.layout-2 {
+  width: 232px;
+  height: auto;
+  margin-top: 450px;
+  margin-left: 25px;
+}
+
+
+
+
+  .layout .designer {
+    left: 50%;
+    transform: translate(-50%);
+    text-align: center;
+    margin-top: 2px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Microsoft JhengHei Light", sans-serif;
+    font-size: 40px;
+    color: #ffffff;
+    text-transform: uppercase;
+    background-color: transparent;
+    border: none;
+    letter-spacing: 7px;
+    -webkit-user-select: none; 
+    -moz-user-select: none; 
+    -ms-user-select: none; 
+    user-select: none;
+   
+  }
+  
+
+ 
+
+
+
+
+
+
+
+
+#layout{
+position: fixed;
+text-align: center;
+justify-content: center;
+align-items: center;
+}
+
+
+
+
+
+
+
+
+
+.layout .firstlayout {
+  position: fixed;
+  text-align: center;
+  top: 0px;
+  border-radius: 7px;
+  box-sizing: border-box; 
+  box-shadow: 
+  inset 0 0 20px #c18aff, /* inner shadow */
+  0 0 20px #ffffff;   
+  width: 100%;
+  height: 100%;
+  background: #00000036;
+  border: 1px solid #ffffff;
+  overflow: hidden;
+  }
+  
+
+
+
+
+#main-button {
+  font-family: "Microsoft JhengHei Light", sans-serif;
+  font-size: 70px;
+  color: #ffffff;
+  background-color: transparent;
+  border: none;
+
+
+  -webkit-user-select: none;  
+  -moz-user-select: none;  
+  -ms-user-select: none; 
+  user-select: none;
+  }
+.blur {
+  filter: blur(4px);
+  transition: filter 1s;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.userprofile {
+  position: absolute;
+  left: 140px;
+  transform: translateX(-50%);
+    border: 1px solid #ffffff;
+    box-shadow: inset 0 0 20px #ffffff;
+    background: #bb73ff27;
+    border-radius: 0px;
+    width: 230px;
+    height: 400px;
+    margin-top: 90px;
+  }
+  
+.userprofile::after { /* add a pseudo-element to create the text "PROFILE" */
+    content: "U S E R";
+    font-size: 18px;
+    color: #ff0000;
+    position: absolute; /* position the text absolutely within the box */
+    bottom: 5px; /* position the text 10px above the bottom border */
+    left: 50%; /* center the text horizontally */
+    transform: translateX(-50%); 
+			font-family: 'NeoMilitarist';
+			src: url('fonts/NeoMilitarist.ttf');
+      font-family: 'NeoMilitarist', sans-serif;
+    text-shadow: 0px 0px 10px #ff0000, 0px 0px 20px #ff0000, 0px 0px 30px #ff0000, 0px 0px 40px #ff00ff, 0px 0px 70px #ff00ff, 0px 0px 80px #ff00ff, 0px 0px 100px #ff00ff, 0px 0px 150px #ff00ff; /* add a glowing effect */
+  }
+  
+.userprofile.hover {
+    border: 2px solid #333;
+  }
+  img {
+    max-width: 100%;
+    max-height: 100%;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.userinfo {
+  position: absolute;
+    border: 1px solid #ffffffe8;
+    box-shadow: inset 0 0 20px #ffffff;
+    /*border-bottom-width: 20px;*/
+    background: #bb73ff27;
+    border-radius: 0px;
+    box-align: center;
+    width: 76%;
+    height: 310px;
+    margin-left: 273px;
+    margin-top: 82px;
+  }
+
+.userinfo::after { 
+    content: "";
+    font-size: 18px;
+    color: #00e1ff;
+    position: absolute; 
+    bottom: 10px;
+    right: 10px;
+    font-family: 'NeoMilitarist';
+    src: url('fonts/NeoMilitarist.ttf');
+    font-family: 'NeoMilitarist', sans-serif;
+    text-shadow: 0px 0px 10px #00ccff, 0px 0px 20px #00e1ff, 0px 0px 30px #00f7ff, 0px 0px 40px #ff00ff, 0px 0px 70px #ff00ff, 0px 0px 80px #ff00ff, 0px 0px 100px #ff00ff, 0px 0px 150px #ff00ff;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /*
+  .line-on-box{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 259.01px;
+    height: 0px;
+    border: 2px solid #00FFFF;
+    margin-top: 1285px;
+    filter: blur(1px);
+    
+  }*/
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
